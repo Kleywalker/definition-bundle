@@ -1,0 +1,14 @@
+{
+  "name": "packagea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "dependencies": {
+    "packageb": "^1.0.0"
+  },
+  "scripts": {
+    "build": "dts-bundle-generator -o my.d.ts src/index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
